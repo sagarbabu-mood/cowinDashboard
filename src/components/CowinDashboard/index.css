@@ -1,0 +1,42 @@
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+  padding-bottom: 30px;
+}
+
+.website-logo {
+  width: 90px;
+  margin-right: 10px;
+}
+
+.website-heading {
+  font-size: 25px;
+  color: #ffffff;
+}
+.cowin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2cc6c6;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failure-view {
+  margin-top: 80px;
+  width: 40%;
+}
