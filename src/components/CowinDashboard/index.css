@@ -40,3 +40,10 @@
   margin-top: 80px;
   width: 40%;
 }
+
+.cowin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+}

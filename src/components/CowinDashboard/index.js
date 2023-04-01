@@ -109,18 +109,20 @@ class CowinDashboard extends Component {
     return (
       <>
         <div className="bg-container">
-          <div className="logo-container">
-            <p className="cowin">
-              <img
-                className="website-logo"
-                src="https://assets.ccbp.in/frontend/react-js/cowin-logo.png"
-                alt="website logo"
-              />
-              Co-WIN
-            </p>
+          <div className="cowin-dashboard-container">
+            <div className="logo-container">
+              <p className="cowin">
+                <img
+                  className="website-logo"
+                  src="https://assets.ccbp.in/frontend/react-js/cowin-logo.png"
+                  alt="website logo"
+                />
+                Co-WIN
+              </p>
+            </div>
             <h1 className="website-heading">CoWIN Vaccination in India</h1>
+            {this.renderView()}
           </div>
-          {this.renderView()}
         </div>
       </>
     )
